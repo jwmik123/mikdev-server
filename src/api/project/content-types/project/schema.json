@@ -45,6 +45,16 @@
     },
     "slug": {
       "type": "string"
+    },
+    "coverVideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
